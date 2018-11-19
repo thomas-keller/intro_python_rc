@@ -2,6 +2,8 @@
 
 Welcome to the Research Computing Training Program, Module 2. This module will teach you the basics of python programming with a focus on applying them to the manipulation of data files. As in Module 1, you will be provided with basic training materials and links to resources that you will use in aid of a machine learning model from one of python's popular modules, sklearn. Understanding the inner details of how this model functions will be left to later, detailed sections on machine learning and AI. For this task it is sufficient to demonstrate knowledge of how to import data, basic cleaning, and report the results of a random forest model from [scikit-learn](https://scikit-learn.org/stable/) using the the [titanic dataset](https://www.kaggle.com/c/titanic).
 
+
+
 ## Required Tools
 
 For a longer list of tools, please see the really quite good version established in [Module 1](https://avc.web.usf.edu/training/basic-web/). Notably, we will use Git for version control and something like Visual Studio Code for editing.
@@ -15,6 +17,12 @@ For a longer list of tools, please see the really quite good version established
 # Deliverables
 
 The overall project you will be expected to deliver is to go from the initial input files of the [titanic dataset](https://www.kaggle.com/c/titanic) from Kaggle and, after some basic [data cleaning](https://www.kaggle.com/thomasekeller/data-types-and-missing-data-workbook/edit) produce some results from a [random forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html). Machine learning and statistics often begins by understanding the type of data you are trying to predict. Here, the problem as defined from the kaggle website is "in this challenge, we ask you to complete the analysis of what sorts of people were likely to survive." This statements hints at a categorical dependent variable. An example of a numerical regression would be to look at say, the age at which a type of cancer occurs in the general population.
+
+# Things to report
+
+A few things that are usually looked for in a model, especially in machine learning, is how accurate it was. For random forests, this is typically provided with the [oob_score_](https://scikit-learn.org/stable/auto_examples/ensemble/plot_ensemble_oob.html) .
+
+Second, giving a sorted list of the predictor variables with [feature importance](https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html) is also generally helpful and will be looked for.
 
 
 # Resources
